@@ -64,34 +64,6 @@ function Safety() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8">
-        <div className="container mx-auto text-center">
-          <p>© 2024 Earthquake Monitor. All rights reserved.</p>
-          <div className="mt-4 space-x-4">
-            <a href="/" className="hover:text-gray-300 transition duration-300">
-              Home
-            </a>
-            <a
-              href="/map"
-              className="hover:text-gray-300 transition duration-300"
-            >
-              Map
-            </a>
-            <a
-              href="/news"
-              className="hover:text-gray-300 transition duration-300"
-            >
-              News
-            </a>
-            <a
-              href="/safety"
-              className="hover:text-gray-300 transition duration-300"
-            >
-              Safety
-            </a>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
