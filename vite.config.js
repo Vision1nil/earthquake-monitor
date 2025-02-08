@@ -1,12 +1,16 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import path from "path";
 
 export default defineConfig({
   plugins: [react()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
   server: {
-    // This will make Vite try port 3000 first, then increment if busy
+    open: true,
     port: 3000,
-    strictPort: false, // This allows Vite to try other ports if 3000 is taken
-    open: true, // This will open your browser automatically
   },
 });

@@ -1,3 +1,55 @@
+# # Logs
+# logs
+# *.log
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# pnpm-debug.log*
+# lerna-debug.log*
+
+# node_modules
+# dist
+# dist-ssr
+# *.local
+
+# # Editor directories and files
+# .vscode/*
+# !.vscode/extensions.json
+# .idea
+# .DS_Store
+# *.suo
+# .ntvs
+# *.njsproj
+# *.sln
+# *.sw?
+# Logs
+# # logs
+# # *.log
+# # npm-debug.log*
+# # yarn-debug.log*
+# # yarn-error.log*
+# # pnpm-debug.log*
+# # lerna-debug.log*
+
+# # # Dependencies & Build Files
+# # node_modules
+# # dist
+# # dist-ssr
+# # *.local
+
+# # # Editor directories and files
+# # .vscode/*
+# # !.vscode/extensions.json
+# # .idea
+# # .DS_Store
+# # *.suo
+# # .ntvs
+# # *.njsproj
+# # *.sln
+# # *.sw?
+
+# # # Ignore services directory
+# # src/services/
 # Logs
 logs
 *.log
@@ -7,6 +59,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
 dist
 dist-ssr
@@ -22,3 +75,30 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+Logs
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+
+# API Keys and Secrets
+**/config/keys.js
+**/config/secrets.js
+**/api/credentials.*
+**/api/keys.*
+**/services/api-keys.*
+
+# Local API Configuration
+**/config/local.js
+**/config/development.js
+api.config.js
+api.config.local.js
+
+# Cache directories
+.cache
+.temp
