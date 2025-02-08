@@ -41,7 +41,7 @@ function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <p className="text-gray-300">
               Have questions or feedback? Reach out to us at:
-              contact@earthquakemonitor.com
+              harshit.agrawal2009@outlook.com
             </p>
           </div>
         </div>
